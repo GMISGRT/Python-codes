@@ -1,0 +1,8 @@
+import os
+#os.mkdir("D:\\.vscode\\Qwerty")
+
+if os.path.exists("D:\\.vscode\\Python codes\\Qwerty"):
+    print("Folder exists.")
+else:
+    os.mkdir("D:\\.vscode\\Python codes\\Qwerty")
+    print("Folder is created.")
